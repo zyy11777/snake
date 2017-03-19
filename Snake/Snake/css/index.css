@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+}
+#btns{
+	margin: 20px auto;
+}
+#mainCanvas{
+	border: solid 1px #000;
+}

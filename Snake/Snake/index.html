@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta name='format-detection' content='telephone=no'/>
+    <title>贪吃蛇</title>
+    <link href='css/index.css' rel='stylesheet'/>
+  </head>
+  <body>
+    <div id='btns'>
+      <button id='startGame'>开始游戏</button>
+      <button id='pauseGame'>暂停游戏</button>
+    </div>
+	<div id="xycoordinates">
+		Coordinates: 
+	</div>
+    <canvas id='mainCanvas' onmousemove="cnvs_getCoordinates(event)" onmouseout="cnvs_clearCoordinates()">你的浏览器不支持Canvas，墙裂建议使用谷歌Chrome浏览器</canvas>
+    <script type="text/javascript" src='js/index.js'></script>
+  </body>
+</html>
+<!-- 1、star不在画布内  
+	 2、star和蛇的像素有错位   
+	 3、蛇可以撞击自己
+	 4、蛇可以掉头
+	 
+	 随机数取数不整
+	 -->
